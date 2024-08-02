@@ -4,7 +4,7 @@ def add_everything_up(a, b):
         if isinstance(result, float):
             return round(result, 3)
         else:
-            return a + b
+            return result
     except TypeError:
         return str(a) + str(b)
 
